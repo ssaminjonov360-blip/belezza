@@ -6,7 +6,7 @@ const HAIRSTYLES = [
     id: 1,
     title: "BOB CUT",
     price: "200 000 so'm",
-    img: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=400&q=80",
+    img: "./public/images/tree.jpg",
   },
   {
     id: 2,
