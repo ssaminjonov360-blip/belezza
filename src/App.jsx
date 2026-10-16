@@ -12,64 +12,39 @@ const HAIRSTYLES = [
     id: 2,
     title: "Ukladka 2",
     price: "150/200 so'm",
-    img: "./public/images/ukladka2.jpg",
+    img: "/images/ukladka2.jpg",
   },
   {
     id: 3,
     title: "Ukladka 3",
     price: "150/200 so'm",
-    img: "public/images/ukladka3.jpg",
+    img: "/images/ukladka3.jpg",
   },
   {
     id: 4,
     title: "Ukladka 4",
     price: "150/200 so'm",
-    img: "public/images/ukladka4.jpg",
+    img: "/images/ukladka4.jpg",
   },
   {
     id: 5,
     title: "Makyaj",
     price: "300/500 so'm",
-    img: "public/images/makyaj.jpg",
+    img: "/images/makyaj.jpg",
   },
   {
     id: 6,
     title: "Makyaj 2",
     price: "300/500 so'm",
-    img: "public/images/makyaj2.jpg",
+    img: "/images/makyaj2.jpg",
   },
   {
     id: 7,
     title: "Makyaj 3",
     price: "300/500 so'm",
-    img: "public/images/makyaj3.jpg",
-  },
-  {
-    id: 8,
-    title: "Depilyatsiya polniy",
-    price: "700 000 so'm",
-    img: "public/images/depilyatsiya.jpg",
-  },
-  {
-    id: 9,
-    title: "Kraska",
-    price: "Sochga qarab",
-    img: "public/images/kraska.jpg",
-  },
-  {
-    id: 10,
-    title: "Kraska 2",
-    price: "Sochga qarab",
-    img: "public/images/kraska2.jpg",
-  },
-  {
-    id: 11,
-    title: "Qosh yuz Terish",
-    price: "50/100 so'm",
-    img: "public/images/qow yuz .jpg",
+    img: "/images/makyaj3.jpg",
   },
 ];
-
 export default function App() {
   const [activeModal, setActiveModal] = useState(null);
   const [showCenterPage, setShowCenterPage] = useState(false);
